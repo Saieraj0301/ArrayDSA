@@ -24,5 +24,7 @@ public class MaxMinSum {
     public static int findMin(int[] array) {
         Arrays.sort(array);
         return array[0];
+
+        System.out.println("Hello");
     }
 }
